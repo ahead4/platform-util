@@ -1,0 +1,19 @@
+{
+	"require": {
+		"symfony/console"   : "3.0.1",
+		"symfony/process"   : "3.0.1",
+		"ahead4/licensing"  : "1.0.*",
+		"illuminate/support": "5.1.*"
+	},
+	"repositories": [
+		{
+			"type": "composer",
+			"url" : "http://packages.ahead4.com"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"Platform\\Util\\": "src/"
+		}
+	}
+}

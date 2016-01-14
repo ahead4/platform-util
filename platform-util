@@ -1,0 +1,15 @@
+#!/usr/bin/env php
+<?php
+
+if (file_exists(__DIR__ . '/../../autoload.php')) {
+	require __DIR__ . '/../../autoload.php';
+} else {
+	require __DIR__ . '/vendor/autoload.php';
+}
+
+use Symfony\Component\Console\Application;
+use Platform\Util\Console\InstallCommand;
+
+$app = new Application;
+$app->add(new InstallCommand);
+$app->run();
