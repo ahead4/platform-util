@@ -4,16 +4,22 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "84ed302c6408594f37039466747e7eaa",
-    "content-hash": "c21f31c8a7b2dc8e6e90bdc44f511fe3",
+    "hash": "926f8216e3ebfa95cd79448a99213ebd",
+    "content-hash": "dfd6e9e65c77a8589aad2c011329608d",
     "packages": [
         {
             "name": "ahead4/licensing",
-            "version": "1.0.2",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
-                "url": "git@gitlab.ahead4.com:ahead4-packages/licensing.git",
-                "reference": "23aff93017902033dffbe53721878b97410c2bcd"
+                "url": "https://github.com/ahead4ltd/licensing.git",
+                "reference": "0378b2c23e13f5b5356c3432d8a89274b3815698"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ahead4ltd/licensing/zipball/0378b2c23e13f5b5356c3432d8a89274b3815698",
+                "reference": "0378b2c23e13f5b5356c3432d8a89274b3815698",
+                "shasum": ""
             },
             "require": {
                 "illuminate/support": "~5.0",
@@ -29,11 +35,7 @@
                     "Ahead4\\Licensing\\": "src/"
                 }
             },
-            "autoload-dev": {
-                "classmap": [
-                    "tests/TestCase.php"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "authors": [
                 {
                     "name": "Ahead4 Limited",
@@ -41,7 +43,7 @@
                 }
             ],
             "description": "A package to assist with the generation and validation of license keys.",
-            "time": "2015-06-26 13:48:15"
+            "time": "2016-02-09 12:50:19"
         },
         {
             "name": "danielstjules/stringy",
