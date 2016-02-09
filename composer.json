@@ -1,4 +1,8 @@
 {
+	"name": "ahead4/platform-util",
+    "description": "A command line utility to install our Platform system",
+    "keywords": ["ahead4", "platform", "utility"],
+    "license": "GPL",
 	"require": {
 		"symfony/console"   : "3.0.2",
 		"symfony/var-dumper": "3.0.2",
