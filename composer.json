@@ -16,5 +16,8 @@
 		"psr-4": {
 			"Platform\\Util\\": "src/"
 		}
-	}
+	},
+	"bin": [
+		"platform-util"
+	]
 }
