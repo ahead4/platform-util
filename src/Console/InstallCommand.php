@@ -176,7 +176,7 @@ class InstallCommand extends Command
 	 */
 	protected function installBaseSystem($path)
 	{
-		$this->execCommand('composer create-project ahead4-platform/base --no-interaction --repository-url=http://packages.ahead4.com --stability=dev ' . $path);
+		$this->execCommand('composer create-project ahead4-platform/base --no-interaction --repository-url=https://packages.ahead4.com --stability=dev ' . $path);
 	}
 
 	/**
