@@ -1,5 +1,5 @@
 {
-	"name": "ahead4/platform-util",
+    "name": "ahead4/platform-util",
     "description": "A command line utility to install our Platform system",
     "keywords": ["ahead4", "platform", "utility"],
     "license": "GPL",
